@@ -6,7 +6,7 @@
 
 **Supporting evidence:** [GitHub repository](https://github.com/pulahatarafder10-del/Apple-M2-Exploratory-CPU-Study)
 
-**Note:** Author approval is not university staff approval. Some references to “inference speed increased” in the supplied PDF should be read as “inference latency increased”, because measured microseconds per inference grew with workload. The research remains a single-session exploratory experiment.
+**Publication update (20 November 2026):** The authors' original page-seven evidence note was written before this GitHub repository contained the evidence. The repository now provides the C++ source, CSV data, audit, figures and a readable manuscript copy. The original PDF text remains below as a historical source, without silently changing its wording.\n\n**Note:** Author approval is not university staff approval. Some references to “inference speed increased” in the supplied PDF should be read as “inference latency increased”, because measured microseconds per inference grew with workload. The research remains a single-session exploratory experiment.
 
 ---
 
