@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "For coursework reference, cite the student paper and consult its stated experimental limitations."
+title: "Inference Latency and Data Storage of Neural Networks with C++ on Apple M2"
+authors:
+  - family-names: Tarafder
+    given-names: Pulaha
+  - family-names: Ghosh
+    given-names: Saket
+keywords:
+  - Apple M2
+  - C++17
+  - neural network inference
+  - floating-point precision
+  - exploratory experiment
