@@ -34,9 +34,14 @@ At **512 hidden neurons**, float32 had **17.2% lower mean latency** than float64
 - [C++ verification program](src/verify_results.cpp)
 - [Methods, limitations and verification scope](docs/METHODS_LIMITATIONS.md)
 - [Author contributions](docs/AUTHOR_CONTRIBUTIONS.md)
+- [Authors' supplied seven-page manuscript (text transcription)](paper/AUTHOR_SUPPLIED_MANUSCRIPT_TEXT.md)
+- [Readable manuscript PDF generated from transcription](paper/AI_Research_Online_Readable_Copy.pdf)
+- [CPU inference latency figure (SVG)](figures/latency_by_configuration.svg)
+- [Parameter storage figure (SVG)](figures/parameter_storage.svg)
+- [Numerical audit of all six configurations](validation/ORIGINAL_RESULTS_AUDIT.md)
 - [GitHub Actions validation](.github/workflows/validate.yml)
 
-**Formatted PDF and chart files:** the online research data and code are published. The authors' latest formatted PDF and two figure PNGs still need to be uploaded to the `paper/` and `figures/` directories via GitHub's **Add file → Upload files** control. Do not claim those files are online until they appear in this repository. The separately distributed PDF includes a clickable repository evidence link and an embedded offline evidence archive.
+**Document provenance:** The online PDF is an automatically generated **readable transcription**, not an exact copy of the authors' seven-page formatted PDF. The online SVG figures were generated from the archived summary values. The original formatted PDF and the original XLSX worksheets are retained in the complete offline research package; the authors may separately upload those binary originals if the lecturer requires their exact original forms. The original CSV and C++ source code are already published here.
 
 ## Validate the recorded data
 
