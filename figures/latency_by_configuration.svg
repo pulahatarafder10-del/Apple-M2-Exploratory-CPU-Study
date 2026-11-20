@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="latency comparing float32 and float64 at three hidden-layer widths" width="950" height="600" viewBox="0 0 950 600">
+<rect width="950" height="600" fill="#fff"/>
+<text x="475" y="42" font-family="Arial,sans-serif" font-size="25" text-anchor="middle" font-weight="bold" fill="#142234">CPU inference latency by width and precision</text>
+<text x="475" y="70" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#49566d">Five consecutive timed blocks per configuration in one Apple M2 session</text>
+<line x1="100" x2="780" y1="455" y2="455" stroke="#d9e2e7" stroke-width="1"/><text x="85" y="460" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#49566d">0</text>
+<line x1="100" x2="780" y1="384" y2="384" stroke="#d9e2e7" stroke-width="1"/><text x="85" y="389" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#49566d">15</text>
+<line x1="100" x2="780" y1="313" y2="313" stroke="#d9e2e7" stroke-width="1"/><text x="85" y="318" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#49566d">30</text>
+<line x1="100" x2="780" y1="242" y2="242" stroke="#d9e2e7" stroke-width="1"/><text x="85" y="247" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#49566d">45</text>
+<line x1="100" x2="780" y1="171" y2="171" stroke="#d9e2e7" stroke-width="1"/><text x="85" y="176" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#49566d">60</text>
+<line x1="100" x2="780" y1="100" y2="100" stroke="#d9e2e7" stroke-width="1"/><text x="85" y="105" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#49566d">75</text>
+<text x="26" y="285" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#26374d" transform="rotate(-90 26 285)">Mean CPU latency (microseconds / inference)</text>
+<rect x="151.33333333333331" y="440.4389082" width="50" height="14.561091800000002" rx="3" fill="#2876c5"/><text x="176.33333333333331" y="432.4389082" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#1d2b38">3.08</text>
+<rect x="225.33333333333331" y="438.9678970666667" width="50" height="16.03210293333333" rx="3" fill="#0e8f87"/><text x="250.33333333333331" y="430.9678970666667" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#1d2b38">3.39</text>
+<text x="213.33333333333331" y="487" font-family="Arial,sans-serif" font-size="18" text-anchor="middle" fill="#1d2b38">32 hidden units</text>
+<rect x="378" y="395.642509" width="50" height="59.357490999999996" rx="3" fill="#2876c5"/><text x="403" y="387.642509" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#1d2b38">12.54</text>
+<rect x="452" y="397.2480698666667" width="50" height="57.75193013333333" rx="3" fill="#0e8f87"/><text x="477" y="389.2480698666667" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#1d2b38">12.20</text>
+<text x="440" y="487" font-family="Arial,sans-serif" font-size="18" text-anchor="middle" fill="#1d2b38">128 hidden units</text>
+<rect x="604.6666666666666" y="204.8341412" width="50" height="250.1658588" rx="3" fill="#2876c5"/><text x="629.6666666666666" y="196.8341412" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#1d2b38">52.85</text>
+<rect x="678.6666666666666" y="153.0429734666667" width="50" height="301.9570265333333" rx="3" fill="#0e8f87"/><text x="703.6666666666666" y="145.0429734666667" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#1d2b38">63.79</text>
+<text x="666.6666666666666" y="487" font-family="Arial,sans-serif" font-size="18" text-anchor="middle" fill="#1d2b38">512 hidden units</text>
+<rect x="340" y="525" width="22" height="18" fill="#2876c5"/><text x="369" y="540" font-family="Arial,sans-serif" font-size="16">float32</text><rect x="500" y="525" width="22" height="18" fill="#0e8f87"/><text x="529" y="540" font-family="Arial,sans-serif" font-size="16">float64</text>
+<text x="475" y="582" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#5e6572">Descriptive means from 5 blocks, not 5 independent sessions.</text></svg>
