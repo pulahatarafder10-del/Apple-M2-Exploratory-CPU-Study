@@ -1,0 +1,5 @@
+ai_benchmark
+verify_results
+.DS_Store
+*.o
+new_trial/
