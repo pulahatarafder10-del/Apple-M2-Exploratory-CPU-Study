@@ -33,6 +33,8 @@ At **512 hidden neurons**, float32 had **17.2% lower mean latency** than float64
 - [Derived summary table (CSV)](data/analysis_summary.csv)
 - [C++ verification program](src/verify_results.cpp)
 - [Methods, limitations and verification scope](docs/METHODS_LIMITATIONS.md)
+- [Dependencies and input generation](docs/DEPENDENCIES_AND_INPUTS.md)
+- [Coordinator's feedback and outstanding policy checks](docs/COORDINATOR_FEEDBACK_AND_STATUS.md)
 - [Author contributions](docs/AUTHOR_CONTRIBUTIONS.md)
 - [Authors' supplied seven-page manuscript (text transcription)](paper/AUTHOR_SUPPLIED_MANUSCRIPT_TEXT.md)
 - [Readable manuscript PDF generated from transcription](paper/AI_Research_Online_Readable_Copy.pdf)
