@@ -29,5 +29,7 @@ jobs:
           git add paper/AI_Research_Online_Readable_Copy.pdf
           if ! git diff --staged --quiet; then
             git commit -m "Publish accessible PDF manuscript with evidence URL"
-            git push
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
