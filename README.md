@@ -26,16 +26,17 @@ Mean ± sample standard deviation in microseconds per inference (five blocks eac
 
 At **512 hidden neurons**, float32 had **17.2% lower mean latency** than float64 in this session. The observed ranges did not overlap, but order, scheduling, and thermal effects were uncontrolled. No clear precision effect was established for the two smaller configurations.
 
-## Contents
+## Repository contents
 
-- [Original benchmark source](src/original_apple_m2_benchmark.cpp)
-- [CSV of 30 original measurements](data/results.csv)
-- [Derived summary table](data/analysis_summary.csv)
+- [Original C++ benchmark](src/original_apple_m2_benchmark.cpp)
+- [Original 30 measurements (CSV)](data/results.csv)
+- [Derived summary table (CSV)](data/analysis_summary.csv)
 - [C++ verification program](src/verify_results.cpp)
-- [Research manuscript (Markdown transcription)](paper/RESEARCH_PAPER.md)
-- [Methods and limitations](docs/METHODS_LIMITATIONS.md)
+- [Methods, limitations and verification scope](docs/METHODS_LIMITATIONS.md)
+- [Author contributions](docs/AUTHOR_CONTRIBUTIONS.md)
+- [GitHub Actions validation](.github/workflows/validate.yml)
 
-The authors' seven-page formatted PDF and chart image files may be added to `paper/` and `figures/` respectively. The Markdown manuscript is an accessible text version; refer to the authors' PDF for original layout and figures.
+**Formatted PDF and chart files:** the online research data and code are published. The authors' latest formatted PDF and two figure PNGs still need to be uploaded to the `paper/` and `figures/` directories via GitHub's **Add file → Upload files** control. Do not claim those files are online until they appear in this repository. The separately distributed PDF includes a clickable repository evidence link and an embedded offline evidence archive.
 
 ## Validate the recorded data
 
