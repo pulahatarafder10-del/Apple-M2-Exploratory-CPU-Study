@@ -1,0 +1,15 @@
+name: Verify archived C++ measurements
+on:
+  push:
+  pull_request:
+jobs:
+  verify-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile original benchmark and verifier
+        run: |
+          g++ -O3 -std=c++17 src/original_apple_m2_benchmark.cpp -o ai_benchmark
+          g++ -O2 -std=c++17 src/verify_results.cpp -o verify_results
+      - name: Validate archived 30 rows
+        run: ./verify_results data/results.csv
