@@ -6,6 +6,18 @@
 
 **Authors:** Pulaha Tarafder (80489) and Saket Ghosh (80564)
 
+[![Validate original CSV](https://github.com/pulahatarafder10-del/Apple-M2-Exploratory-CPU-Study/actions/workflows/validate.yml/badge.svg)](https://github.com/pulahatarafder10-del/Apple-M2-Exploratory-CPU-Study/actions/workflows/validate.yml)
+[![Build readable PDF](https://github.com/pulahatarafder10-del/Apple-M2-Exploratory-CPU-Study/actions/workflows/build-paper.yml/badge.svg)](https://github.com/pulahatarafder10-del/Apple-M2-Exploratory-CPU-Study/actions/workflows/build-paper.yml)
+
+### Quick access for reviewers
+
+**[Read the manuscript (PDF)](paper/AI_Research_Online_Readable_Copy.pdf)** · **[Source manuscript text](paper/AUTHOR_SUPPLIED_MANUSCRIPT_TEXT.md)** · **[Original results.csv](data/results.csv)** · **[C++ benchmark](src/original_apple_m2_benchmark.cpp)** · **[Verification report](validation/ORIGINAL_RESULTS_AUDIT.md)**
+
+The PDF linked above is a *readable online transcription* of the authors' supplied formatted document. The original seven-page PDF remains in the full offline archive.
+
+![Measured latency across hidden-layer sizes](figures/latency_by_configuration.svg)
+
+
 > **Scope:** A documented **exploratory experiment**, not a validated general comparison of processor performance or neural-network prediction accuracy. All 30 timing observations came from **one session**, with float32 always preceding float64.
 
 ## Research question
